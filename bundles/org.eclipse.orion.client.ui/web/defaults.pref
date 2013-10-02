@@ -3,7 +3,7 @@
 		"plugins/authenticationPlugin.html": true,
 		"plugins/fileClientPlugin.html":true,
 		"plugins/jslintPlugin.html":true,
-		"git/plugins/gitPlugin.html":true,
+		"git/plugins/gitPlugin.html":true,		
 		"profile/userservicePlugin.html":true,
 		"plugins/webEditingPlugin.html":true,
 		"plugins/pageLinksPlugin.html":true,
@@ -17,6 +17,6 @@
 		"shell/plugins/shellPagePlugin.html":true,
 		"search/plugins/searchPagePlugin.html":true,
 		"plugins/projectsPlugin.html" :true,
-		"flower/plugins/flowerEditorPlugin.html" :true
+		"flower/plugins/flowerPlugin.html":true
 	}
 }
