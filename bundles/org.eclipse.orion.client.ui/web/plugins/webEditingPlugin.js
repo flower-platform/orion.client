@@ -139,12 +139,12 @@ define([
 		uriTemplate: "../edit/edit.html#{Location,params*}",
 		orionTemplate: "../edit/edit.html#{,Location,params*}"});
 
-	provider.registerService("orion.navigate.openWith", {}, {
-			editor: "orion.editor",
-			contentType: ["text/plain", "text/html", "text/css", "application/javascript", "application/json", "application/xml", "text/x-java-source"]});
-
-	provider.registerService("orion.navigate.openWith.default", {}, {
-			editor: "orion.editor"});
+//	provider.registerService("orion.navigate.openWith", {}, {
+//			editor: "orion.editor",
+//			contentType: ["text/plain", "text/html", "text/css", "application/javascript", "application/json", "application/xml", "text/x-java-source"]});
+//
+//	provider.registerService("orion.navigate.openWith.default", {}, {
+//			editor: "orion.editor"});
 
 	// Register content assist providers
 	provider.registerService("orion.edit.contentassist",
